@@ -1,7 +1,6 @@
-let input = require('fs').readFileSync('input.txt').toString().split('\n');
-console.log(input);
+const input = require('fs').readFileSync('input.txt').toString().split('\n');
 
-
-// function solution(s){
+function solution(input){
     
-// }
+
+}
