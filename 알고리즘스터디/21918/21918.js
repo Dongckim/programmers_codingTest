@@ -1,0 +1,1 @@
+const [num, ...input] = require('fs').readFileSync('input.txt').toString().split('\n');
