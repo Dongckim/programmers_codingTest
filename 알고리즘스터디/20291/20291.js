@@ -37,4 +37,23 @@ function solution2(input){
     return answer.join('\n')
 }
 
+
+function solution3(input){
+    const map = {};
+    const sorted = [];
+    
+    for (let i = 0; i < input.length; i++) {
+        const [ _ , extender] = input[i].split(".");
+        map[extender] = (map[extender] || 0) + 1;
+    }
+    
+    for (let key in map) {
+        sorted.push([key + " " + map[key]]);
+    }
+    
+    answer = sorted.sort();
+    
+    return answer.join("\n");
+}
+
 console.log(solution2(input))

@@ -1,4 +1,4 @@
-const input = require('fs').readFileSync('input.txt').toString().split('\n');
+const input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
 
 function solution1(input){
     const NohearSeen = new Set();
@@ -16,8 +16,8 @@ function solution2(input){
     let NoSeenLst = input.slice(NoSeen)
 
     let answer = NoHearLst.filter(item => {
-        for(let data of NoSeenLst){
-            if(data === item){
+        for(let data in NoSeenLst){
+            if(data == item){
                 return true
             }
             else{
@@ -25,7 +25,6 @@ function solution2(input){
             }
         }
     })
-    answer.unshift(answer.length)
     return answer
 }
 
@@ -45,4 +44,5 @@ function solution3(input){
     Array.from(HearSet).map(item => SeenSet.has(item) ? answer.push(item) : null)
     return answer.length + '\n' +  answer.sort().join('\n')
 }
-console.log(solution3(input))
+
+console.log(solution2(input))
