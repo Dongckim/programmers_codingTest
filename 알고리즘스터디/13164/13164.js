@@ -7,11 +7,22 @@
 // 최대한 비용을 아끼고 싶어 하는 태양이는 K개의 조에 대해 티셔츠 만드는 비용의 합을 최소로 하고 싶어한다. 
 // 태양이를 도와 최소의 비용을 구하자.
 
-const [num, ...input] = require('fs').readFileSync('input.txt').toString().split('\n');
+const path = process.platform === 'linux' ? "/dev/stdin" : "input.txt";
+const [num, ...input] = require('fs').readFileSync(path).toString().split('\n');
 
 function solution1(num, input){
     const [total, groupNum] = num.split(' ')
-    
+    let kids =  input[0].split(' ').map(child => +child)
+
+    let interval = []
+    for(let i = 0; i < total - 1 ; i++){
+        interval.push(kids[i+1] - kids[i])
+    }
+
+    return interval
+                .sort()
+                .slice(0, groupNum)
+                // .reduce((acc, curr) => acc + curr)
 }
 
 console.log(solution1(num, input))
