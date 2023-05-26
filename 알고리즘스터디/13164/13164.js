@@ -22,7 +22,7 @@ function solution1(num, input){
     return interval
                 .sort()
                 .slice(0, groupNum)
-                // .reduce((acc, curr) => acc + curr)
+                .reduce((acc, curr) => acc + curr)
 }
 
 console.log(solution1(num, input))
