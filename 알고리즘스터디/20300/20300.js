@@ -6,7 +6,7 @@ function solution1(num, mLoss){
     // return mLoss.map(data => String(data))
     let answer = 0
     if(num % 2 === 0){
-        for(let i = 0; i < num-1; i++){
+        for(let i = 0; i < (num-1)/2; i++){
             let sum = mLoss[i]+mLoss[num-(i+1)]
             answer = answer > sum ? answer :  sum
         }
@@ -14,7 +14,7 @@ function solution1(num, mLoss){
     }
     else{
         answer = mLoss[num-1]
-        for(let i = 0; i < num-2; i++){
+        for(let i = 0; i < (num-2)/2; i++){
             let sum = mLoss[i]+mLoss[num-(i+2)]
             answer = answer > sum ? answer :  sum
         }
