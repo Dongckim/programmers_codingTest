@@ -14,4 +14,9 @@ function solution1(num, input){
     return answer
 }
 
+function solution2(num, input){
+
+
+}
+
 console.log(solution1(num, input))
