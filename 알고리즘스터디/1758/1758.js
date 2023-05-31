@@ -6,6 +6,7 @@ function solution1(num, input){
     let totalTips = 0
     for(let i = 1; i <= num; i++){
         let tipPerson = tips[i-1]-(i-1)
+        
         if(Math.sign(tipPerson) === 1){
             totalTips += tipPerson;
         }else{
