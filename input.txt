@@ -1,5 +1,6 @@
-4
-21 Junkyu
-21 Dohyun
-20 Sunyoung
-8 aaa
+5
+3 4
+1 1
+1 -1
+2 2
+3 3
