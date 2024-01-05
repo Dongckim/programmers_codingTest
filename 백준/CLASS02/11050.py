@@ -5,4 +5,4 @@ def factorial(x):
     return fact
 
 a, b = list(map(int, open('input.txt', 'rt').read().split(' ')))
-print(factorial(a)/factorial(a-b)/factorial(b))
+print(factorial(a)//factorial(a-b)//factorial(b))
