@@ -14,6 +14,28 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="/var/folders/r9/gk6kz5rn1v1df4wk0t5zxvnh0000gn/T/leetcode/editor/en/[119]Pascal's Triangle II.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/r9/gk6kz5rn1v1df4wk0t5zxvnh0000gn/T/leetcode/editor/en/doc/content/[119]Pascal's Triangle II.md" />
+              <option name="frontendQuestionId" value="leetcode.com119" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/r9/gk6kz5rn1v1df4wk0t5zxvnh0000gn/T/leetcode/editor/en/[119]Pascal's Triangle II.py" />
+              <option name="titleSlug" value="pascals-triangle-ii" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/var/folders/r9/gk6kz5rn1v1df4wk0t5zxvnh0000gn/T/leetcode/editor/en/[85]Maximal Rectangle.py">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/var/folders/r9/gk6kz5rn1v1df4wk0t5zxvnh0000gn/T/leetcode/editor/en/doc/content/[85]Maximal Rectangle.md" />
+              <option name="frontendQuestionId" value="leetcode.com85" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="/var/folders/r9/gk6kz5rn1v1df4wk0t5zxvnh0000gn/T/leetcode/editor/en/[85]Maximal Rectangle.py" />
+              <option name="titleSlug" value="maximal-rectangle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
